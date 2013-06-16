@@ -1,0 +1,43 @@
+[
+  {"category_label": "Push Button",
+   "row_data": [
+     {"cell_type": "push_action",
+      "label": "This is test button!",
+      "push_action": "showAlert:"
+     }
+   ]
+  },
+
+  {"category_label": "Push View",
+   "row_data": [
+     {"cell_type": "next_view",
+      "label": "test1_vc",
+      "accessory_type": "DisclosureIndicator",
+      "next_view": {
+         "storyboard_name": "MainStoryboard",
+         "storyboard_id": "test1_vc"
+      }
+     },
+     {"cell_type": "next_view",
+      "label": "test1_vc",
+      "accessory_type": "DisclosureIndicator",
+      "next_view": {
+         "storyboard_name": "MainStoryboard",
+         "storyboard_id": "test2_vc"
+      }
+     }
+
+
+   ]
+  },
+
+  {"category_label": "Editable Cell",
+   "row_data": [
+     {"cell_type": "text_edit",
+      "placeholder": "Input your username",
+      "edit_change_action": "changeText:",
+      "edit_done_action": "doneText:"
+     }
+   ]
+  }
+ ]
