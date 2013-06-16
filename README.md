@@ -7,7 +7,7 @@ JSONファイルで指定するだけで簡単にUITableViewの構造や動き�
 + jsonファイルでセルグループ、セル内容を作成可能
 + next_view 指定による Push View の自動化
 + push_action 指定による cellをプッシュされた場合のアクション割り当て
-+ text_edit 指定による、 cell内部へのUITextField の埋め込み + コールバッククション
++ text_edit 指定による、 cell内部へのUITextField の埋め込み + コールバックアクションによる処理
 
 
 使い方
